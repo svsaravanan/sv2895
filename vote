@@ -1,0 +1,27 @@
+name = str(input("enter your name: "))
+age = int(input("enter your DOY: "))
+if int(age < 1995):
+    print("your are eligible to vote: ")
+else:
+    print("sorry you are not eligible to vote")
+    print()
+
+
+
+
+output:
+
+enter your name: saravanan
+enter your DOY: 1994
+your are eligible to vote: 
+
+Process finished with exit code 0
+
+neg output:
+enter your name: sads
+enter your DOY: 1996
+sorry you are not eligible to vote:
+
+
+
+Process finished with exit code 0
